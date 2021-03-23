@@ -1,4 +1,3 @@
-
 --SQL QUERIES
 -- Select the city list
 SELECT * FROM city_list
