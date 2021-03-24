@@ -52,7 +52,7 @@ I calculated correlation coefficient between year & global temperature and corre
 
 -	Calculation in excel: Using `Data Analysis tool` from `Analysis tab`.
 -	Calculation in Python: Using Pandas `corr()` function.
--
+
 Correlation coefficient between year and global temperature is ***0.86***. This value indicates strong positive correlation, meaning, when the year change there is an increase (change) in the temperature.
 Correlation coefficient between local city temperature and global temperature is ***0.62***. This value indicates positive correlation, but it is not a strong correlation.
 
@@ -75,3 +75,55 @@ Correlation coefficient between local city temperature and global temperature is
 <p align="center">
 Figure 4: Correlation Coefficient Heat Map.
 </p>
+
+**Calculating Moving average**
+In general, the moving average smoothens the data and is mostly used with time series data to capture the short-term fluctuations while focusing on longer trends. Besides weather reports moving average is widely used in stock prices, gross domestic products, employment, etc. (1). 
+
+_-	Calculating 5-year moving average in Excel - steps_
+Calculated average for first 5 years, using AVERAGE() function.
+Populated the formula for the entire column, by selecting the cell with the formula, moving the mouse to the bottom-left corner and double clicked.
+Formula used:
+`=AVERAGE(B2:B6)`
+
+_-	Calculating 5-year moving average in Python – steps_
+Formula for moving average for this project was created with the help of “datacamp website” (1). I used Pandas build in function “rolling window” and chain the function with mean() function. Parameter window was set to 5. Columns were selected with Pandas iloc method. 
+Formula used:
+`df['LJ_MA_5y'] = df.iloc[:,1].rolling(window=5).mean()`
+
+## Observations, Answering Questions & Drawing Conclusions 
+
+**-	Is local city hotter or colder on average compared to the global average?**<br />
+_Observation from the chart:_
+From the line charts (Figure 5, Figure 6, Figure 7, Figure 8) I can observe that local city Ljubljana is hotter than global average, while local city Helsinki is cooler than global average. However, the temperatures are rising in both cities and so do global average temperatures.
+
+_Observation from descriptive statistics:_
+From descriptive statistics I can observe that Ljubljana is 1.02°C hotter and Helsinki is 4.10 °C cooler than global average.
+
+<p align="center">
+<img src="Graphics/Descriptive_Statistics.PNG" width="30%" height="30%">
+</p>
+
+<p align="center">
+Figure 5: Descriptive Statistics for Average global Temperature and Average Temperatures in Ljubljana and Helsinki.
+</p>
+
+-	How do changes in your city’s temperature over time compare to the changes in the global average?
+From the line charts (Figure 6, Figure 7, Figure 8, Figure 9) I can observe that temperature trend in local cities globally is similar – the temperatures are rising. However, the fluctuation of temperatures in local cities is more obvious than for global average temperatures. 
+
+-	What does the overall trend look like? Is the world getting hotter or cooler?
+In the line chart (Figure 6) I plotted a trend line for the global average and I can see that overall positive trend, meaning that temperatures are rising and the world’s getting hotter. I can see the same pattern from the line chart (Figure 7). City with cooler temperatures than global average is also getting hotter. 
+
+-	Has the trend been consistent over the last few hundred years? Has the difference been consistent over time? 
+The temperatures are not consistent over time. Although, the overall trend is positive, I can see fluctuation over the years from line charts Figure 6, Figure 7, Figure 8, Figure 9. From scatter plots (Figure 1 and Figure 2) we can see almost exponential rise of the temperature in the last 25 years.
+
+## Communication & Visualizations
+
+-	What were key considerations when deciding how to visualize the trends?
+o	Choosing the right chart type: line chart is best choice for continuous data, scatter plots are best to show correlation between two variables.
+o	Ensuring that visualizations clearly communicate findings, without extra explanation.
+o	Ensuring charts have all components (labels, titles, legends).
+o	Other visual components (colors, x and y axis intervals)
+
+VISUALIZATIONS – IN EXCEL
+
+
