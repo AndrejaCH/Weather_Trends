@@ -127,3 +127,45 @@ o	Other visual components (colors, x and y axis intervals)
 VISUALIZATIONS – IN EXCEL
 
 
+<p align="center">
+<img src="Graphics/Excel01.png" width="30%" height="30%">
+</p>
+<p align="center">
+Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures.
+</p>
+
+<p align="center">
+<img src="Graphics/Excel02.png" width="30%" height="30%">
+</p>
+<p align="center">
+Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
+</p>
+
+<p align="center">
+<img src="Graphics/Aveg_Temp_5year_MA_2cities.png" width="30%" height="30%">
+</p>
+<p align="center">
+Figure 9: 5-year Moving Average Trend for Global and Local City Temperatures.
+</p>
+
+<p align="center">
+<img src="Graphics/Aveg_Temp_5year_MA_3cities.png" width="30%" height="30%">
+</p>
+<p align="center">  
+Figure 10: 5-year Moving Average Trend for Global and Local Cities Temperatures
+</p>
+
+References 
+(1) Sharma, Aditya. “Moving Averages in pandas.” DataCamp. 24. June 2019. Web. 23. March 2021 https://www.datacamp.com/community/tutorials/moving-averages-in-pandas
+(2) “Correlation Coeficient: Simple Definition, Formula, Easy Steps.” Statistics How To. n.p. Web. 23. March 2019 https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/
+(3) Magiya, Joseph. “Pearson Coefficient of Correlation Explained.” Towards Data Science. 26. May 2019. Web. 23. March 2021 https://towardsdatascience.com/pearson-coefficient-of-correlation-explained-369991d93404
+(4) Frost, Jim. “Interpreting Correlation Coefficients.” Statistics by Jim. n.p. Web. 23. March 2021 https://statisticsbyjim.com/basics/correlations/
+(5) “Correlation and P value.” The Data School by Chartio. 22. March 2021. Web. 23. March 2021 https://dataschool.com/fundamentals-of-analysis/correlation-and-p-value/
+(6) “Statistical Significance.” Optimozely. n.p. Web. 23. March 2021 
+https://www.optimizely.com/optimization-glossary/statistical-significance/#:~:text=Statistical%20Significance%20Definition&text=A%20result%20of%20an%20experiment,a%20given%20statistical%20significance%20level.&text=It%20also%20means%20that%20there,that%20you%20could%20be%20wrong.
+Other Supportive Articles
+Magiya, Joseph. “Pearson Coefficient of Correlation with Python.” Levelup.Gitconnected. 14. April 2019. Web. 23. March 2021
+https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-ca68ce678c04
+
+
+
