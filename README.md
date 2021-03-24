@@ -128,32 +128,25 @@ o	Other visual components (colors, x and y axis intervals)
 
 
 <p align="center">
-<img src="Graphics/Excel01.png" width="50%" height="50%"> <img src="Graphics/Excel02.png" width="50%" height="50%">
+<img src="Graphics/Excel01.png" width="35%" height="35%"> <img src="Graphics/Excel02.png" width="43%" height="43%">
 </p>
 
 <p align="center">
-Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures. Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
+<i>Figure 6 & &: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
 </p>
-
-
 
 
 
 **VISUALIZATIONS – WITH PYTHON IN JUPYTER NOTEBOOK**
 
 <p align="center">
-<img src="Graphics/Aveg_Temp_5year_MA_2cities.png" width="50%" height="50%">
-</p>
-<p align="center">
-Figure 9: 5-year Moving Average Trend for Global and Local City Temperatures.
+<img src="Graphics/Aveg_Temp_5year_MA_2cities.png" width="35%" height="35%"> <img src="Graphics/Aveg_Temp_5year_MA_3cities.png" width="35%" height="35%">
 </p>
 
 <p align="center">
-<img src="Graphics/Aveg_Temp_5year_MA_3cities.png" width="50%" height="50%">
+<i>Figure 9 & 10: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
 </p>
-<p align="center">  
-Figure 10: 5-year Moving Average Trend for Global and Local Cities Temperatures
-</p>
+
 
 ## References
 
