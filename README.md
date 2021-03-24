@@ -169,6 +169,3 @@ https://www.optimizely.com/optimization-glossary/statistical-significance/#:~:te
 
 Magiya, Joseph. “Pearson Coefficient of Correlation with Python.” Levelup.Gitconnected. 14. April 2019. Web. 23. March 2021
 https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-ca68ce678c04
-
-
-
