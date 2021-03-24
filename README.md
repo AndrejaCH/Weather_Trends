@@ -118,13 +118,13 @@ The temperatures are not consistent over time. Although, the overall trend is po
 
 ## Communication & Visualizations
 
--	What were key considerations when deciding how to visualize the trends?
-o	Choosing the right chart type: line chart is best choice for continuous data, scatter plots are best to show correlation between two variables.
-o	Ensuring that visualizations clearly communicate findings, without extra explanation.
-o	Ensuring charts have all components (labels, titles, legends).
+-	What were key considerations when deciding how to visualize the trends?<br />
+o	Choosing the right chart type: line chart is best choice for continuous data, scatter plots are best to show correlation between two variables.<br />
+o	Ensuring that visualizations clearly communicate findings, without extra explanation.<br />
+o	Ensuring charts have all components (labels, titles, legends).<br />
 o	Other visual components (colors, x and y axis intervals)
 
-VISUALIZATIONS – IN EXCEL
+**VISUALIZATIONS – IN EXCEL**
 
 
 <p align="center">
@@ -140,6 +140,10 @@ Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures.
 <p align="center">
 Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
 </p>
+
+
+
+**VISUALIZATIONS – WITH PYTHON IN JUPYTER NOTEBOOK**
 
 <p align="center">
 <img src="Graphics/Aveg_Temp_5year_MA_2cities.png" width="50%" height="50%">
