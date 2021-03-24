@@ -128,14 +128,14 @@ o	Other visual components (colors, x and y axis intervals)
 
 
 <p align="center">
-<img src="Graphics/Excel01.png" width="30%" height="30%">
+<img src="Graphics/Excel01.png" width="50%" height="50%">
 </p>
 <p align="center">
 Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures.
 </p>
 
 <p align="center">
-<img src="Graphics/Excel02.png" width="30%" height="30%">
+<img src="Graphics/Excel02.png" width="50%" height="50%">
 </p>
 <p align="center">
 Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
