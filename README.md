@@ -16,7 +16,7 @@ Retrieving data form database using SQL queries and exporting data to csv file.
 
 Select the city list | select data for specific cities | select all data form global_data
 :---: | :---: | :---:
-SELECT * FROM city_list | SELECT * FROM city_data WHERE city = 'Ljubljana'; | SELECT * FROM global_data
+SELECT * FROM city_list | SELECT * FROM city_data<br /> WHERE city = 'Ljubljana'; | SELECT * FROM global_data
 
 ### Data Wrangling in Excel 
 1.	Exported data from csv files to xlsx files, using copy-sheet to new file, in order to perform calculations and creating visuals.
@@ -28,12 +28,12 @@ If I want to compare the temperatures, I need data for all cities and global dat
 ### Data Wrangling with Python in Jupyter Notebook  
 1.	Read in data from excel file.
 2.	Dropped unnecessary columns ‘city’ and ‘country’.
-3.	Dropped null values, using dropna() function.
+3.	Dropped null values, using `dropna()` function.
 4.	Checked cleaned dataset, ensuring is ready for performing analysis.
 
 ## EDA & FEATURE ENGINEERING 
 
-**Correlation coefficient**
+**Correlation coefficient - intro**
 
 Correlation coefficients are used to measure the strength and direction of a relationship between two variables (2). The value of the correlation coefficient varies between +1 and -1. As the correlation coefficient value goes towards 0, the relationship between the two variables will be weaker. The most common correlation measures used is Pearson R Correlation (3). A correlation between variables indicates that as one variable changes in value, the other variable tends to change in a specific direction.  Understanding that relationship is useful because we can use the value of one variable to predict the value of the other variable (4).
 
@@ -128,18 +128,14 @@ o	Other visual components (colors, x and y axis intervals)
 
 
 <p align="center">
-<img src="Graphics/Excel01.png" width="50%" height="50%">
-</p>
-<p align="center">
-Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures.
+<img src="Graphics/Excel01.png" width="50%" height="50%"> <img src="Graphics/Excel02.png" width="50%" height="50%">
 </p>
 
 <p align="center">
-<img src="Graphics/Excel02.png" width="50%" height="50%">
+Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures. Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
 </p>
-<p align="center">
-Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
-</p>
+
+
 
 
 
