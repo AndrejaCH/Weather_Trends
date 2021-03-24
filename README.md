@@ -124,7 +124,7 @@ o	Ensuring that visualizations clearly communicate findings, without extra expla
 o	Ensuring charts have all components (labels, titles, legends).
 o	Other visual components (colors, x and y axis intervals)
 
-VISUALIZATIONS – IN EXCEL
+**VISUALIZATIONS – IN EXCEL**
 
 
 <p align="center">
@@ -135,11 +135,19 @@ Figure 6: 5-year Moving Average Trend for Global and Local City Temperatures.
 </p>
 
 <p align="center">
+<img src="Graphics/Excel01.png" width="50%" height="50%">
+</p>
+
+<p align="center">
 <img src="Graphics/Excel02.png" width="30%" height="30%">
 </p>
 <p align="center">
 Figure 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.
 </p>
+
+
+
+**VISUALIZATIONS – WITH PYTHON IN JUPYTER NOTEBOOK**
 
 <p align="center">
 <img src="Graphics/Aveg_Temp_5year_MA_2cities.png" width="50%" height="50%">
