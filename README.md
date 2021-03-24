@@ -31,7 +31,7 @@ If I want to compare the temperatures, I need data for all cities and global dat
 3.	Dropped null values, using `dropna()` function.
 4.	Checked cleaned dataset, ensuring is ready for performing analysis.
 
-## EDA & FEATURE ENGINEERING 
+## EDA & Feature Engineering 
 
 **Correlation coefficient - intro**
 
@@ -73,7 +73,7 @@ Correlation coefficient between local city temperature and global temperature is
 </p>
 
 <p align="center">
-Figure 4: Correlation Coefficient Heat Map.
+<i>Figure 4: Correlation Coefficient Heat Map.</i>
 </p>
 
 **Calculating Moving average**
@@ -81,12 +81,12 @@ In general, the moving average smoothens the data and is mostly used with time s
 
 _-	Calculating 5-year moving average in Excel - steps_
 Calculated average for first 5 years, using AVERAGE() function.
-Populated the formula for the entire column, by selecting the cell with the formula, moving the mouse to the bottom-left corner and double clicked.
+Populated the formula for the entire column, by selecting the cell with the formula, moving the mouse to the bottom-left corner and double clicked.<br />
 Formula used:
 `=AVERAGE(B2:B6)`
 
 _-	Calculating 5-year moving average in Python – steps_
-Formula for moving average for this project was created with the help of “datacamp website” (1). I used Pandas build in function “rolling window” and chain the function with mean() function. Parameter window was set to 5. Columns were selected with Pandas iloc method. 
+Formula for moving average for this project was created with the help of “datacamp website” (1). I used Pandas build in function “rolling window” and chain the function with mean() function. Parameter window was set to 5. Columns were selected with Pandas iloc method.<br />
 Formula used:
 `df['LJ_MA_5y'] = df.iloc[:,1].rolling(window=5).mean()`
 
@@ -104,7 +104,7 @@ From descriptive statistics I can observe that Ljubljana is 1.02°C hotter and H
 </p>
 
 <p align="center">
-Figure 5: Descriptive Statistics for Average global Temperature and Average Temperatures in Ljubljana and Helsinki.
+<i>Figure 5: Descriptive Statistics for Average global Temperature and Average Temperatures in Ljubljana and Helsinki.</i>
 </p>
 
 -	How do changes in your city’s temperature over time compare to the changes in the global average?
