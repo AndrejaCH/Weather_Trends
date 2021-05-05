@@ -3,12 +3,12 @@ In this project I am analyzing and observing global weather data (temperatures) 
 
 ## Data Analysis Process
 ### Questions
--	Is local city hotter or cooler on average compared to the global average? 
--	Has the difference been consistent over time?
--	How do the changes in local city’s temperatures over time compare to the changes in the global average?
--	What does the overall trend look like? 
--	Is the world getting hotter or cooler? 
--	What is the correlation coefficient?
+- [x]	Is local city hotter or cooler on average compared to the global average? 
+- [x]	Has the difference been consistent over time?
+- [x]	How do the changes in local city’s temperatures over time compare to the changes in the global average?
+- [x]	What does the overall trend look like? 
+- [x]	Is the world getting hotter or cooler? 
+- [x]	What is the correlation coefficient?
 
 ### Data Wrangling 
 Below are listed steps in data analysis wrangling process.
