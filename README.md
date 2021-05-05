@@ -1,8 +1,8 @@
 # Project Overview
 In this project I am analyzing and observing global weather data (temperatures) and data in selected cities (Ljubljana and Helsinki) from years 1849 to 2013. Data was retrieved from a Udacity database, using SQL queries and stored locally in csv files. In order to observe long term trends, I calculated 5-year moving averages for all datasets.
 
-# Data Analysis Process
-## Questions
+## Data Analysis Process
+### Questions
 -	Is local city hotter or cooler on average compared to the global average? 
 -	Has the difference been consistent over time?
 -	How do the changes in local city’s temperatures over time compare to the changes in the global average?
@@ -10,7 +10,7 @@ In this project I am analyzing and observing global weather data (temperatures) 
 -	Is the world getting hotter or cooler? 
 -	What is the correlation coefficient?
 
-## Data Wrangling 
+### Data Wrangling 
 Below are listed steps in data analysis wrangling process.
 Retrieving data form database using SQL queries and exporting data to csv file.
 
@@ -18,20 +18,20 @@ Select the city list | select data for specific cities | select all data form gl
 :---: | :---: | :---:
 SELECT * FROM city_list | SELECT * FROM city_data<br /> WHERE city = 'Ljubljana'; | SELECT * FROM global_data
 
-### Data Wrangling in Excel 
+#### Data Wrangling in Excel 
 1.	Exported data from csv files to xlsx files, using copy-sheet to new file, in order to perform calculations and creating visuals.
 2.	Used `VLOOKUP` formula to gather data on the same worksheet.
 3.	Used `IFERROR` formula to handle missing values, replacing them with string “NULL” to avoid overwriting zeros.
 4.	Handling missing values:
 If I want to compare the temperatures, I need data for all cities and global data. For this reason, I decided to filtered out missing values and keep only data that has values for all selected cities and global data. I filtered out missing data and copy-paste selected data to new worksheet in order to work on data without missing values (alternatively I performed VLOOKUP technique on the data that has “the least data points” – in this case the null values are not transferred).
 
-### Data Wrangling with Python in Jupyter Notebook  
+#### Data Wrangling with Python in Jupyter Notebook  
 1.	Read in data from excel file.
 2.	Dropped unnecessary columns ‘city’ and ‘country’.
 3.	Dropped null values, using `dropna()` function.
 4.	Checked cleaned dataset, ensuring is ready for performing analysis.
 
-## EDA & Feature Engineering 
+### EDA & Feature Engineering 
 
 **Correlation coefficient**
 
@@ -89,7 +89,7 @@ _-	Calculating 5-year moving average in Python – steps_ <br />
 Formula for moving average for this project was created with the help of “datacamp website” (1). I used Pandas build in function “rolling window” and chain the function with mean() function. Parameter window was set to 5. Columns were selected with Pandas iloc method.<br />
 **Formula used:** `df['LJ_MA_5y'] = df.iloc[:,1].rolling(window=5).mean()`
 
-## Observations, Answering Questions & Drawing Conclusions 
+### Observations, Answering Questions & Drawing Conclusions 
 
 **-	Is local city hotter or colder on average compared to the global average?**<br />
 _Observation from the chart:_ <br />
@@ -115,7 +115,7 @@ In the line chart (Figure 6) I plotted a trend line for the global average and I
 **-	Has the trend been consistent over the last few hundred years? Has the difference been consistent over time?**
 The temperatures are not consistent over time. Although, the overall trend is positive, I can see fluctuation over the years from line charts Figure 6, Figure 7, Figure 8, Figure 9. From scatter plots (Figure 1 and Figure 2) we can see almost exponential rise of the temperature in the last 25 years.
 
-## Communication & Visualizations
+### Communication & Visualizations
 
 What were key considerations when deciding how to visualize the trends?<br />
 o	Choosing the right chart type: line chart is best choice for continuous data, scatter plots are best to show correlation between two variables.<br />
@@ -145,7 +145,7 @@ o	Other visual components (colors, x and y axis intervals)
 </p>
 
 
-## References
+### References
 
 (1) Sharma, Aditya. “Moving Averages in pandas.” DataCamp. 24. June 2019. Web. 23. March 2021 https://www.datacamp.com/community/tutorials/moving-averages-in-pandas</i><br />
 (2) “Correlation Coeficient: Simple Definition, Formula, Easy Steps.” Statistics How To. n.p. Web. 23. March 2019 https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/</i><br />
@@ -155,7 +155,7 @@ o	Other visual components (colors, x and y axis intervals)
 (6) “Statistical Significance.” Optimozely. n.p. Web. 23. March 2021 
 https://www.optimizely.com/optimization-glossary/statistical-significance/#:~:text=Statistical%20Significance%20Definition&text=A%20result%20of%20an%20experiment,a%20given%20statistical%20significance%20level.&text=It%20also%20means%20that%20there,that%20you%20could%20be%20wrong.</i><br />
 
-## Other Supportive Articles
+### Other Supportive Articles
 
 Magiya, Joseph. “Pearson Coefficient of Correlation with Python.” Levelup.Gitconnected. 14. April 2019. Web. 23. March 2021
 https://levelup.gitconnected.com/pearson-coefficient-of-correlation-using-pandas-ca68ce678c04
