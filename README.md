@@ -46,7 +46,7 @@ If I want to compare the temperatures, I need data for all cities and global dat
 **What's the correlation coefficient for this dataset?**
 A great way to explore, to get familiar with the data, finding patterns and building intuitions is to calculate, visualize and uncover complex and unknown relationships between variables. 
 
-**Calculating correlation coefficient**
+**Calculating Correlation Coefficient**
 
 I calculated correlation coefficient between year & global temperature and correlation between global average temperatures & local city temperatures and observed what kind of correlation (if any) exists. Calculation for correlation coefficient was made with Excel and Python.
 
@@ -76,7 +76,7 @@ Correlation coefficient between local city temperature and global temperature is
 <i>Figure 4: Correlation Coefficient Heat Map.</i>
 </p>
 
-**Calculating Moving average**
+**Calculating Moving Average**
 
 In general, the moving average smoothens the data and is mostly used with time series data to capture the short-term fluctuations while focusing on longer trends. Besides weather reports moving average is widely used in stock prices, gross domestic products, employment, etc. (1). 
 
