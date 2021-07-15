@@ -1,6 +1,6 @@
 # Weather Trends and Moving Average
 
-# Project Overview
+## Project Overview
 In this project I am analyzing and observing global weather data (temperatures) and data in selected cities (Ljubljana and Helsinki) from years 1849 to 2013. Data was retrieved from a Udacity database, using SQL queries and stored locally in csv files. In order to observe long term trends, I calculated 5-year moving averages for all datasets.
 
 ## Data Analysis Process
