@@ -132,7 +132,7 @@ o	Other visual components (colors, x and y axis intervals)
 </p>
 
 <p align="center">
-<i>Figure 6 & &: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
+<i>Figure 6 & 7: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
 </p>
 
 
@@ -143,7 +143,7 @@ o	Other visual components (colors, x and y axis intervals)
 </p>
 
 <p align="center">
-<i>Figure 9 & 10: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
+<i>Figure 8 & 9: 5-year Moving Average Trend for Global and Local Cities Temperatures.</i>
 </p>
 
 
